@@ -2,7 +2,427 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Nick Wang Personal Website</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="bower_components/chartist/dist/chartist.min.css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/customstyles.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header>
+      <div
+        class="container-fluid vh-100  bg-dark text-center d-table startcontainer text-light"
+      >
+        <div class="row d-table-cell align-middle">
+          <div class="col">
+            <h1>Hello. I'm <span>Nick Wang</span>.</h1>
+            <h1>I'm a full-stack web developer.</h1>
+            <a href="#navcontainer">View my works ></a>
+          </div>
+        </div>
+      </div>
+      <div class="container my-3  " id="navcontainer">
+        <div class="row">
+          <div class="col">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+              <a class="navbar-brand" href="#">NW</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolios">Portfolios</a>
+                  </li>
+                  <li class="nav-item">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                    >
+                      Say Hello
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End of Header -->
+    <!-- Main Content -->
+    <div class="container my-3  text-center">
+      <!-- About me -->
+      <div id="aboutme" class="row my-3">
+        <div class="col">
+          <h3>Who am I</h3>
+          <p class="my-3">
+            Hi, I'm Nick Wang. I live in Sydney Australia. I love to build
+            immersive and beautiful web applications through carefully crafted
+            code and user-oriented design.
+          </p>
+          <p class="my-3">
+            Since graduating with a Master Degree of information technology from
+            University of New South Wales. I helped my family to setup
+            international business and builded up stable sales channle to
+            several countries including India, Pakistan and Vietnam. After few
+            year works, I discovered my passion is on building things. Now it is
+            time for me to follow my hear doing something makes me excited. So I
+            took course from Treehouse and finished my front-end web developer
+            degree, which will be the start of my programming career. Looking
+            forward, I would like to learn deep Python and do artifical
+            intelegent oriented project.
+          </p>
+          <p class="my-3">
+            When i'm not online, you can find me with my wife and a toddler baby
+            - trying out intresting activies for family and tring out a new
+            recipe in kitchen.
+          </p>
+          <img src="images/avatar.jpg" class="rounded-circle avatar" alt="" />
+        </div>
+      </div>
+      <!-- End of about me -->
+      <!-- Skills -->
+      <div id="skills" class="row my-3 ">
+        <div class="col-xs-12 col-md-6 my-3">
+          <h3>Languages I speak</h3>
+          <ul class="list-group">
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              HTML <img src="icons/html.svg" alt="" />
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              CSS <img src="icons/css.svg" alt="" />
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              JAVASCRIPT <img src="icons/javascript.svg" alt="" />
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              PYTHON <img src="icons/python.svg" alt="" />
+            </li>
+            <li
+              class="list-group-item d-flex justify-content-between align-items-center"
+            >
+              SHELL <img src="icons/shell.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 my-3 clearfix">
+          <h3>Dev Tools I use</h3>
+          <div class="ct-chart "></div>
+        </div>
+      </div>
+      <!-- End of skills -->
+      <!-- Portfolios -->
+      <div id="portfolios" class="row my-3">
+        <div class="col">
+          <h3>Portfolios</h3>
+          <p>Here are a few recent projects I finished.</p>
+          <!-- <div class="card-deck "> -->
+          <div class="row ">
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white ">
+                <img src="images/project1.png" class="card-img" alt="..." />
+
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-1/"
+                      >Personal Profile Page</a
+                    >
+                  </h5>
+                  <p class="card-text ">
+                    customizing a web page to create a personal profile modify
+                    the code for a basic web page by adding graphics, custom
+                    text, and a stylish design
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white  ">
+                <img src="images/project2.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-2/"
+                      >Mobile-first Responsive Layout</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    write CSS to style the page for a small mobile device first.
+                    Then, using min-width media queries, you’ll add breakpoints
+                    to adjust the layout for wider tablet and desktop screens.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project3.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-3/"
+                      >Online Registration Form</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    build a responsive, mobile-friendly registration form using
+                    a wide variety of HTML form input types and attributes.
+                    Using the supplied mockup files, a mobile and desktop
+                    version of the form using media queries, and a
+                    "mobile-first" approach.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project4.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-4/"
+                      >Web Style Guide</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    creating rules to style the web page using each of those
+                    class names. create a sass project to do this, using
+                    partials, variables, extends, and mixins to apply the styles
+                    and classes to the style guide page. have a Sass
+                    micro-framework to quickly prototype other websites.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project5.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-5/"
+                      >An Interactive Photo Gallery</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    create an interactive photo gallery using JavaScript and
+                    jQuery. search area where photos will hide and show
+                    depending on user input. When the user clicks on a
+                    thumbnail, the photo will display in a lightbox. There is a
+                    back and previous arrows to cycle through photos.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project6.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto"
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-6/"
+                      >Game Show App</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    Using Javascript, create an array of phrases and write
+                    functions to choose a random phrase from that array, split
+                    the phrase into letters, and put those letters onto the game
+                    board. Each time the player guesses a letter, compare the
+                    letter the player has chosen with the random phrase. If the
+                    letter is in the phrase, update the game board with the
+                    chosen letters. A player can keep choosing letters until
+                    they make five incorrect guesses. If the letter they chose
+                    isn’t in the phrase, remove one of the player’s 5 guesses.
+                    If the player completes the phrase before they run out of
+                    guesses, a winning screen will display. If the player
+                    guesses incorrectly 5 times, a losing screen will display. A
+                    player can guess a letter only once. After they’ve guessed a
+                    letter, programming will disable that letter.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project7.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto "
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-7/"
+                      >WebApp Dashboard</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    These "dashboards" act like your control panel for
+                    controlling the web app. In this project, take a mockup and
+                    a few icons and build a beautiful, web dashboard complete
+                    with JavaScript-driven charts and graphs. take the design
+                    and create the HTML, CSS and JavaScript functionality for
+                    this one page
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6  my-3">
+              <div class="card bg-dark text-white">
+                <img src="images/project8.png" class="card-img" alt="..." />
+                <div
+                  class="card-body overlay-background text-light overflow-auto  "
+                >
+                  <h5 class="card-title">
+                    <a
+                      class="font-weight-bold  text-white"
+                      href="https://kongyue.github.io/techdegree-project-8/"
+                      >Use an API to Create an Employee directory</a
+                    >
+                  </h5>
+                  <p class="card-text">
+                    use the Random User Generator API (https://randomuser.me/)
+                    to grab information for 12 random “employees,” and use that
+                    data to build a prototype for an Awesome Startup employee
+                    directory.request a JSON object from the API using fetch and
+                    parse the data so that 12 employees are listed in a grid
+                    with their thumbnail image, full name, email, and location.
+                    Clicking the employee’s image or name will open a modal
+                    window with more detailed information, such as the
+                    employee’s birthday and address.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Portfolios -->
+    </div>
+    <!-- End of main content -->
+    <!-- Footer -->
+    <footer>
+      <div class="container  text-center">
+        <div class="row">
+          <div class="col">
+            <h3>Where to find me</h3>
+            <a href="https://github.com/KongYue"
+              ><img
+                src="icons/github-sign.svg"
+                class="icon img-thumbnail"
+                alt=""
+            /></a>
+            <a href="https://www.linkedin.com/in/nick-wang-b000134a/"
+              ><img
+                src="icons/linkedin-logo.svg"
+                class="icon img-thumbnail "
+                alt=""
+            /></a>
+            <img src="icons/envelope.svg" class="icon img-thumbnail" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer -->
+
+    <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Say Hello To Me</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Email: <a href="haozaici@gmail.com">haozaici@gmail.com</a></p>
+            <p>Number: +61420 656 399</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bower_components/chartist/dist/chartist.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>

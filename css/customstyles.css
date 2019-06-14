@@ -1,0 +1,118 @@
+:root {
+  --color-danger: rgb(217, 83, 79);
+  --color-light: rgb(249, 249, 249);
+  --color-info: rgb(91, 192, 222);
+  --color-cardcolorbackground: rgba(52, 58, 64, 1);
+  --color-success: rgb(92, 184, 92);
+  --color-primary: rgb(66, 139, 202);
+  --color-black: #212529;
+}
+
+.startcontainer span {
+  color: var(--color-info);
+}
+.startcontainer a {
+  text-decoration: none;
+  display: block;
+  border: solid 2px var(--color-black);
+  width: 185px;
+  height: 48px;
+  margin: auto;
+  font-size: 19px;
+  color: var(--color-black);
+  font-weight: 500;
+  padding-top: 5px;
+}
+.startcontainer a:hover {
+  background-color: var(--color-light);
+}
+
+.overlay-background {
+  background-color: var(--color-cardcolorbackground);
+}
+
+.icon {
+  max-width: 40px;
+}
+
+.avatar {
+  max-width: 30%;
+}
+
+.ct-label {
+  font-size: 20px;
+
+  fill: var(--color-black);
+}
+
+.ct-series-a .ct-slice-donut-solid {
+  fill: rgba(52, 58, 64, 0.1);
+
+  stroke: white;
+
+  stroke-width: 4px;
+}
+
+.ct-series-b .ct-slice-donut-solid {
+  fill: rgba(52, 58, 64, 0.2);
+
+  stroke: white;
+
+  stroke-width: 4px;
+}
+.ct-series-c .ct-slice-donut-solid {
+  fill: rgba(52, 58, 64, 0.3);
+
+  stroke: white;
+
+  stroke-width: 4px;
+}
+.ct-series-d .ct-slice-donut-solid {
+  fill: rgba(52, 58, 64, 0.4);
+
+  stroke: white;
+  stroke-width: 4px;
+}
+
+.ct-series-a .ct-slice-donut-solid:hover {
+  fill: var(--color-info);
+}
+.ct-series-b .ct-slice-donut-solid:hover {
+  fill: var(--color-info);
+}
+.ct-series-c .ct-slice-donut-solid:hover {
+  fill: var(--color-info);
+}
+.ct-series-d .ct-slice-donut-solid:hover {
+  fill: var(--color-info);
+}
+.list-group img {
+  height: 35px;
+}
+
+.list-group-item {
+  position: relative;
+}
+.list-group-item .activeimg {
+  transition-timing-function: ease-out;
+  transition: 0.5s;
+  transform: translateX(-130%);
+}
+
+@media (min-width: 576px) {
+  #navbarNav {
+    justify-content: flex-end !important;
+  }
+  .card-body {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
