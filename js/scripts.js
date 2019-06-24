@@ -16,7 +16,7 @@ $(".card").hover(
 new Chartist.Pie(
   ".ct-chart",
   {
-    labels: ["Atom", "Bootstrap", "Github", "React"],
+    labels: ["VS Code", "Bootstrap", "Github", "React"],
     series: [40, 10, 30, 20]
   },
   {
